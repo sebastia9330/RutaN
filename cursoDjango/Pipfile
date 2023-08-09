@@ -15,3 +15,6 @@ pylint-celery = "*"
 
 [requires]
 python_version = "3.11"
+
+[scripts]
+webpersonal = "python webpersonal/manage.py runserver"
